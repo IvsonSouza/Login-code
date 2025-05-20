@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main>
-        <section>
-            <img src="./assets/img/logo.png" alt="Logo" class="logo">
-        </section>
-        <section>
-            <form action="">
-                <h1>Login</h1>
-                <input type="email" name="email" id="email" placeholder="E-mail" required>
-                <input type="password" name="password" id="password" placeholder="Senha" required>
-            </form>
-        </section>
+      <section>
+        <!-- <img src="./logo-code.png" alt="Logo" width="300" /> -->
+        <span class="material-symbols-outlined"> construction </span>
+      </section>
+      <section>
+        <form>
+          <h1>Login</h1>
+          <input type="email" placeholder="E-mail" required />
+          <div style="position: relative">
+            <input
+              type="password"
+              placeholder="Senha"
+              id="input-senha"
+              required
+            />
+            <i class="material-symbols-outlined" id="olho-senha">
+              visibility
+            </i>
+          </div>
+          <button type="submit">Entrar</button>
+        </form>
+      </section>
     </main>
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
